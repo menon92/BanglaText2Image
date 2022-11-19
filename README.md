@@ -1,11 +1,14 @@
 # BangalText2Image
 
-Convert any bangla text to image
+Convert any bangla text to image. This tool will help to generate synthetic data for bangla OCR training
 
 ## Example data sample
-- Sample - 1: ![](./data/3/7.png)
-- Sample - 2: ![](./data/1/7.png)
-- Sample - 3: ![](./src/long-text-gneration.png)
+| Text        | Image |
+| ----------- | ----------- |
+|  ষ্টি    |![](./data/3/7.png) |
+|  ঙ্গি  |![](./data/1/7.png)|
+|  দৃষ্টিভঙ্গি কেমন হতে পারে  |![](./src/long-text-gneration.png)|
+
 
 ## Dependency
 ```sh
