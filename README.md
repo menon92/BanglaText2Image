@@ -26,7 +26,7 @@ sudo apt install default-jdk
 │   ├── 2
 │   ├── 3
 │   └── 4
-├── fonts
+├── fonts # bangla fonts
 │   └── Siyamrupali.ttf
 ├── README.md
 └── src
@@ -65,3 +65,5 @@ Convert bangla sentece to Image
 javac TextToImage.java
 java TextToImage
 ```
+This will output an image like
+![](./src/long-text-gneration.png)
