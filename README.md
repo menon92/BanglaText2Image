@@ -5,8 +5,8 @@ Convert any bangla text to image. This tool will help to generate synthetic data
 ## Example data sample
 | Text        | Image |
 | ----------- | ----------- |
-|  ষ্টি    |![](./data/3/7.png) |
-|  ঙ্গি  |![](./data/1/7.png)|
+|  ঙ্গি    |![](./data/3/7.png) |
+|  ষ্টি    |![](./data/1/7.png)|
 |  দৃষ্টিভঙ্গি কেমন হতে পারে  |![](./src/long-text-gneration.png)|
 
 
