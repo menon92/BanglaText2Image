@@ -1,4 +1,4 @@
-# BangalText2Image
+# BanglaText2Image
 
 Convert any bangla text to image. This tool will help to generate synthetic data for bangla OCR training
 
