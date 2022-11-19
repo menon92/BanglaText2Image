@@ -3,9 +3,9 @@
 Convert any bangla text to image
 
 ## Example data sample
-![](./data/3/7.png)
-![](./data/1/7.png)
-![](./src/long-text-gneration.png)
+- Sample - 1: ![](./data/3/7.png)
+- Sample - 2: ![](./data/1/7.png)
+- Sample - 3: ![](./src/long-text-gneration.png)
 
 ## Dependency
 ```sh
