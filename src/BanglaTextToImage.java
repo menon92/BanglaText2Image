@@ -1,5 +1,3 @@
-package texttoimage;
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -18,16 +16,16 @@ import javax.imageio.ImageIO;
 
 
 public class BanglaTextToImage {
-	public static String BN_DATA_MAP_PATH = "/path/to/bn-data-map.txt";
-	public static String FONTS_DIR = "/path/to/bn-fonts";
-	public static String DATA_SAVED_DIR = "/path/to/bn-data";
+	public static String BN_DATA_MAP_PATH = "../corpus/bn-data-map.txt";
+	public static String FONTS_DIR = "../fonts";
+	public static String DATA_SAVED_DIR = "../data";
 	
 	public static int[] FONT_SIZES = {30, 40, 50};
 	public static int[] BG_COLOR   = {255, 230, 205};
 	
 	public static int IMAGE_NAME_COUNTER = 1;
-	public static int NUMBER_OF_CLASS = 5; // number of class you have
-	public static int CHUNK_TO_TAKE = 3; // CHUNK_TO_TAKE must be <= chunks.lenght()
+	public static int NUMBER_OF_CLASS = 11; // number of class you have
+	public static int CHUNK_TO_TAKE = 5; // CHUNK_TO_TAKE must be <= chunks.lenght()
 	
     public static void main(String[] args) {
     	createFolders();

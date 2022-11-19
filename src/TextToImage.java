@@ -1,5 +1,3 @@
-package texttoimage;
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -10,7 +8,7 @@ import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
-public class Main {
+public class TextToImage {
 
     public static void main(String[] args) {
  
@@ -31,7 +29,7 @@ public class Main {
         try{
             Graphics2D g2d = img.createGraphics();
          //   Font font = new Font("Arial", Font.PLAIN, 48);
-            Font fnt=Font.createFont(Font.TRUETYPE_FONT, new File("/path/to/AponaLohit.ttf"));
+            Font fnt=Font.createFont(Font.TRUETYPE_FONT, new File("../fonts/Siyamrupali.ttf"));
             fnt = fnt.deriveFont(Font.PLAIN,size);
             System.out.println(fnt.getName());
             System.out.println(fnt.getNumGlyphs());
