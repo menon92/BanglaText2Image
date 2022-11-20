@@ -35,6 +35,9 @@ sudo apt install default-jdk
 ```
 
 ## How to run
+আপনি যদি ক্লাস ভিত্তিক ডাটা সেট বানাতে চান তাহলে এই স্ক্রিপ্ট বাবহারেন করতেন পারেন। 
+যেমন আপনি একটা টেক্সট ফাইলে সব বাংলা বর্ণমালা রেখে প্রতিটা বর্ণমালাকে একটা ক্লাস ধরে ডাটা জেনারেট করতে পারেন।
+সেই ক্ষেত্রে প্রতিটা ক্লাস আর জন্য ফোল্ডারে `data/{0..n}` ডাটা জমা হবে
 ```sh
 javac BanglaTextToImage.java
 java BanglaTextToImage
@@ -61,9 +64,12 @@ public static int CHUNK_TO_TAKE = 5; // CHUNK_TO_TAKE must be <= chunks.lenght()
 
 ## Sentence to image
 Convert bangla sentece to Image
+
+এই স্ক্রিপ্টে যেকোনো বাংলা লেখা দিলে সেটাকে ইমেজে কনভার্ট করে দিবে।
 ```sh
 javac TextToImage.java
 java TextToImage
 ```
 This will output an image like
+
 ![](./src/long-text-gneration.png)
