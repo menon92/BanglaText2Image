@@ -73,3 +73,13 @@ java TextToImage
 This will output an image like
 
 ![](./src/long-text-gneration.png)
+
+## Citation
+```sh
+@misc{banglatext2image,
+  title={Bnagla synthetic text image generation},
+  author={Mehadi Hasan Menon},
+  howpublished={https://github.com/menon92/BanglaText2Image},
+  year={2022}
+}
+```
